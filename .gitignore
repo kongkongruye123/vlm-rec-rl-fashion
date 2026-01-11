@@ -33,3 +33,5 @@ vlm_rec_project/data/raw/**/*.zip
 vlm_rec_project/data/cache/
 vlm_rec_project/outputs/
 vlm_rec_project/logs/
+
+vlm_rec_project/data/sft/
