@@ -1,0 +1,13 @@
+{
+  "dataset_name": "H&M Personalized Fashion Recommendations",
+  "kaggle_slug": "h-and-m-personalized-fashion-recommendations",
+  "download_date": "2026-01-11",
+  "files": {
+    "zip": "vlm_rec_project/data/raw/hm/h-and-m-personalized-fashion-recommendations.zip",
+    "articles_csv": "vlm_rec_project/data/raw/hm/articles.csv",
+    "images_dir": "vlm_rec_project/data/raw/hm/images",
+    "transactions_train_csv": "vlm_rec_project/data/raw/hm/transactions_train.csv",
+    "customers_csv": "vlm_rec_project/data/raw/hm/customers.csv"
+  },
+  "notes": "Raw data not committed to git; only manifests and processed jsonl are tracked."
+}

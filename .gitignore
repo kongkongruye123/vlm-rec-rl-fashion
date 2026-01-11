@@ -1,7 +1,35 @@
-model/__pycache__
-out
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual env
+venv/
+.venv/
+
+# Common IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Existing project paths
+model/__pycache__/
+out/
 website/
 docs-minimind-v/
 测试.py
 
-venv/
+# VLM rec project: keep code/reports, ignore big/raw artifacts
+vlm_rec_project/data/raw/hm/
+vlm_rec_project/data/raw/**/*.zip
+
+# Allow the small manifest to be tracked
+!vlm_rec_project/data/raw/kaggle_manifest.json
+
+# Caches / generated artifacts (will appear later)
+vlm_rec_project/data/cache/
+vlm_rec_project/outputs/
+vlm_rec_project/logs/
